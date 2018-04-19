@@ -66,7 +66,7 @@ public class TrackableList : MonoBehaviour
                 {
                     Debug.Log("Snap numbers" + cardTypeNum[--indexNum] + cardTypeNum[indexNum]);    //output to debug
                 }
-
+                  
                 if (cardTypeLet.Count >= 2 && cardTypeLet[--indexLet] == cardTypeLet[indexLet])
                 {
                     Debug.Log("Snap letters" + cardTypeLet[--indexLet] + cardTypeLet[indexLet]);   //output to debug
